@@ -3,6 +3,7 @@ Feature: DuckDuckGo
 Scenario: Searching DuckDuckGo
 
   Given I open DuckDuckGo search page
+  Then I click an element that doesn't exist
   Then the title is "DuckDuckGo — Privacy, simplified."
   And the DuckDuckGo search form exists
 
